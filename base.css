@@ -1,0 +1,238 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(99, 56, 240);
+    padding: 10px 20px 0px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+ul li.menu-link-primeiro{
+    list-style: none;
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+
+ul li.menu-link{
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(232, 246, 255);
+    min-height: 150px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 50px;
+    
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+footer.footer {
+    background-color: rgb(99, 56, 240);
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.rede-dor-footer{
+    padding-right: 45px;
+    border-right: white 1px solid;
+}
+
+h2.telefone{
+    color: white;
+}
+h2 span.tel{
+    color: white;
+}
+
+.icone-telefone{
+    width: 25px;
+    padding-left: 45px;
+    vertical-align: text-top;
+}
+
+.fim-footer{
+    background-color: rgb(229, 224, 245);
+}
+
+.direitos{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Sobre a Clinica*/
+.imagem-um {
+    width: 450px;
+    padding-top: 5px;
+}
+
+/*Horário de Atendimento*/
+.imagem-dois {
+    width: 100px;
+    padding-top: 20px;
+}
+
+/*Horário de Atendimento*/
+fieldset {
+    border-radius: 15px;
+    -webkit-box-shadow: 11px 11px 6px 5px rgba(0,0,0,0.24); 
+    box-shadow: 11px 11px 6px 5px rgba(0,0,0,0.24);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table thead th {
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover td {
+    background-color: #e9f1f1;
+    cursor: pointer;
+}
+
+table tfoot td {
+    background-color: lightgray;
+}
+
+.content-dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+/*Contato*/
+.imagem-tres {
+    padding-top: 5px;
+}
+
+.content-tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .map {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  button[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    opacity: 0.8;
+  }
